@@ -61,7 +61,7 @@ const useStyles = makeStyles(theme => ({
         <div className={classes.controls}>
         <Button size="small"  color="primary"
           onClick={ev => dispatch(Actions.ajouterNuits(props.id))}>
-          Commander
+          Ajouter au panier
         </Button>
         </div>
       </div>
