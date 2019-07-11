@@ -1,5 +1,5 @@
 import React, {useEffect, useCallback} from 'react';
-import {TextField, Button, Dialog, DialogActions, DialogContent,Typography, Toolbar, AppBar, Paper} from '@material-ui/core';
+import {TextField, InputAdornment, Button, Dialog, DialogActions, DialogContent,Typography, Toolbar, AppBar, Paper} from '@material-ui/core';
 import {useForm} from '@fuse/hooks';
 import FuseUtils from '@fuse/FuseUtils';
 import * as Actions from './store/actions';
@@ -43,7 +43,7 @@ function Info(props)
             }
         },[infos.data, infos.type, setForm],
     );
-
+    
     useEffect(() => {
         /**
          * After Dialog Open

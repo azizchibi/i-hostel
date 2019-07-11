@@ -92,7 +92,6 @@
     "build-stats": "yarn run build --stats",
     "bundle-report": "yarn rsun build-stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O",
     "fake:server": "fake-db  --port 3004"
-  
   },
   "browserslist": {
     "production": [
